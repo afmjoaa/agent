@@ -1,0 +1,18 @@
+[project]
+name = "agents"
+version = "0.1.0"
+description = "Function calling and agents"
+requires-python = ">=3.12"
+dependencies = [
+    "dspy>=3.1.0",
+    "fastmcp>=2.14.2",
+    "langchain-core>=1.2.6",
+    "langchain-openai>=1.1.6",
+    "langchain-mcp-adapters>=0.1.11",
+    "langgraph>=0.6.10",
+    "llama-cpp-python>=0.3.16",
+    "notebook>=7.4.7",
+    "numpy>=2.3.4",
+    "pydantic>=2.12.5",
+    "langchain>=1.2.3",
+]
